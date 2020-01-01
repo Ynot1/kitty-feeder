@@ -8,8 +8,8 @@
 #include "SimpleTimer.h"
 
 // Site specfic variables
-const char* ssid = "A_Virtual_Information";
-const char* password = "BananaRock";
+const char* ssid = "ssid";
+const char* password = "password";
 
 const int catdetectorlowerthreshold = 10; //cm.  Readings over this value indicate cat is present in front of the sensor
 const int catdetectorupperthreshold = 35; //cm.  Readings over this value indicate cat isnt present in front of the sensor, and its probably the wall 
