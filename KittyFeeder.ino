@@ -48,8 +48,8 @@ bool catdetectedlatch = false;
 bool timedfeedflag = false;
 bool UDPRestartTried = false; 
 bool DebugMessages = false;
-bool UseLinearMotor = false; // if set to true, the relay attached to catfeederrelay will energise for RelayPulseLength for each feed
-bool UseStepperMotor = true; // if set to true, the stepper motor attached to StepPin will rotateSixthRotate pulses for each feed
+bool UseLinearMotor = true; // if set to true, the relay attached to catfeederrelay will energise for RelayPulseLength for each feed
+bool UseStepperMotor = false; // if set to true, the stepper motor attached to StepPin will rotateSixthRotate pulses for each feed
 
 
 const int catfeederrelay = 0;  // GPIO0 pin.
